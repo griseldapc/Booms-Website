@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-export const about = () => {
+export const About = () => {
   return (
-    <div>about</div>
-    <h1>
-      HAI
-    </h1>
-  )
-}
+    <div>
+      <div>about</div>
+      <h1>Heading</h1>
+    </div>
+  );
+};
