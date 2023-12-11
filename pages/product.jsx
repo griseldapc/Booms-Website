@@ -3,8 +3,7 @@ import React from 'react'
 const product = () => {
   return (
     <div>product
-
-        <button className='btn-primary'>click ini yaa</button>
+       <button class="btn btn-outline-success" type="submit">Search</button>
     </div>
     
   )
