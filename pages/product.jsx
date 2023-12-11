@@ -4,7 +4,7 @@ const product = () => {
   return (
     <div>product
 
-        <button className='btn-primary'>click</button>
+        <button className='btn-primary'>click ini yaa</button>
     </div>
     
   )
