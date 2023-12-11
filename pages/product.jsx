@@ -2,7 +2,11 @@ import React from 'react'
 
 const product = () => {
   return (
-    <div>product</div>
+    <div>product
+
+        <button className='btn-primary'>click</button>
+    </div>
+    
   )
 }
 
