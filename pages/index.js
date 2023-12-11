@@ -1,4 +1,8 @@
 import React from 'react';
+import Head from 'next/head'; // Tambahkan import untuk komponen Head
+// import Image from 'next/image'; // Tambahkan import untuk komponen Image
+// import styles from './styles.module.css'; // Sesuaikan dengan nama modul CSS Anda
+// import inter from './inter.module.css'; // Sesuaikan dengan nama modul CSS Anda
 
 const Home = () => {
   return (
@@ -9,7 +13,7 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      {/* <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
@@ -103,7 +107,9 @@ const Home = () => {
             </p>
           </a>
         </div>
-      </main>
+      </main> */}
     </>
-  )
-}
+  );
+};
+
+export default Home;
