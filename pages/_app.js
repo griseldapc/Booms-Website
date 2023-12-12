@@ -1,6 +1,15 @@
 import '@/styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from '@/components/footer';
 
-
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+  return (
+    <div>
+ 
+      <Component {...pageProps} />
+      <Footer/>
+    </div>
+  );
 }
+
+export default MyApp;

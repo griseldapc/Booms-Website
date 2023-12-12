@@ -106,3 +106,6 @@ a {
   }
 } */
 @import 'bootstrap/dist/css/bootstrap.min.css';
+body {
+  font-family: 'GitLab Sans', sans-serif; /* Atur GitLab Sans sebagai font default */
+}
